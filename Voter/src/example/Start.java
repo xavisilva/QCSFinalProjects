@@ -6,6 +6,7 @@ import voter.PersonalBackup;
 import voter.StandardBackup;
 
 import java.util.ArrayList;
+import java.util.Collections;
 import java.util.HashSet;
 import java.util.Set;
 import java.util.concurrent.*;
@@ -126,6 +127,8 @@ public class Start extends VoterState {
                 e.printStackTrace();
             }
         }
+
+        Collections.sort(results);
 
 
         //Conversão para inteiros

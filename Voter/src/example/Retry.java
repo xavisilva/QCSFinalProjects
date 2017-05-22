@@ -5,6 +5,7 @@ import voter.PersonalBackup;
 import voter.StandardBackup;
 
 import java.util.ArrayList;
+import java.util.Collections;
 import java.util.HashSet;
 import java.util.Set;
 import java.util.concurrent.ExecutionException;
@@ -89,6 +90,7 @@ public class Retry extends VoterState {
         ExecutorService executor = Executors.newFixedThreadPool(servicesUsed);
         Set<Future<Double>> futures = new HashSet<>();
         Future<Double> f;
+        ArrayList<Double> newResults = new ArrayList<>();
         for (int i=3; i < servicesUsed; i++)
         {
             if(method==1)
@@ -113,13 +115,16 @@ public class Retry extends VoterState {
         {
             try
             {
-                results.add(future.get());
+                newResults.add(future.get());
             } catch (InterruptedException e) {
                 e.printStackTrace();
             } catch (ExecutionException e) {
                 e.printStackTrace();
             }
         }
+
+        Collections.sort(newResults);
+        results.addAll(newResults);
 
 
         //Conversão para inteiros
