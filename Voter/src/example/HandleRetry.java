@@ -8,6 +8,7 @@ import java.util.ArrayList;
 import java.util.Collections;
 
 import static java.lang.Math.abs;
+import static java.lang.Math.min;
 
 public class HandleRetry extends VoterState
 {
@@ -62,9 +63,6 @@ public class HandleRetry extends VoterState
         compare(v,results);
     }
 
-    public static double getMin(double a, double b, double c) {
-        return Math.min(Math.min(a, b), c);
-    }
 
 
     public double compare(Voter v, ArrayList<Double> results)
@@ -78,18 +76,18 @@ public class HandleRetry extends VoterState
         {
             if((abs(results.get(3) - results.get(0))<=1) && (abs(results.get(4) - results.get(0))<=1))                        //agreement-> at least services 0-3-4
             {
-                changeState(v, new Agreement(v, getMin(results.get(0),results.get(3),results.get(4)),fileWriter));
-                return getMin(results.get(0),results.get(3),results.get(4));
+                changeState(v, new Agreement(v, min(results.get(0),results.get(3)),fileWriter));
+                return min(results.get(0),results.get(3));
             }
             else if(abs(results.get(3) - results.get(1))<=1 && abs(results.get(4) - results.get(1))<=1)                   //agreement-> at least services 1-3-4
             {
-                changeState(v, new Agreement(v, getMin(results.get(1),results.get(3),results.get(4)),fileWriter));
-                return getMin(results.get(1),results.get(3),results.get(4));
+                changeState(v, new Agreement(v, min(results.get(1),results.get(3)),fileWriter));
+                return min(results.get(1),results.get(3));
             }
             else if(abs(results.get(3) - results.get(2))<=1 && abs(results.get(4) - results.get(2))<=1)                   //agreement-> at least services 2-3-4
             {
-                changeState(v, new Agreement(v, getMin(results.get(2),results.get(3),results.get(4)),fileWriter));
-                return getMin(results.get(2),results.get(3),results.get(4));
+                changeState(v, new Agreement(v, min(results.get(2),results.get(3)),fileWriter));
+                return min(results.get(2),results.get(3));
             }
             else                                                        //equal values <=2 -> disagreement by values
             {
