@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns="http://xmlns.jcp.org/xml/ns/javaee"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd"
+         version="3.1">
+
+    <welcome-file-list>
+        <welcome-file>index.jsp</welcome-file>
+    </welcome-file-list>
+
+    <servlet>
+        <servlet-name>BackgroundInsulinDose</servlet-name>
+        <servlet-class>servlets.BackgroundInsulinDose</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>BackgroundInsulinDose</servlet-name>
+        <url-pattern>/BackgroundInsulinDose</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>StandardInsulin</servlet-name>
+        <servlet-class>servlets.StandardInsulin</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>StandardInsulin</servlet-name>
+        <url-pattern>/StandardInsulin</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>PersonalInsulin</servlet-name>
+        <servlet-class>servlets.PersonalInsulin</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>PersonalInsulin</servlet-name>
+        <url-pattern>/PersonalInsulin</url-pattern>
+    </servlet-mapping>
+
+
+
+</web-app>

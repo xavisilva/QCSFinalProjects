@@ -1,0 +1,27 @@
+<component name="libraryTable">
+  <library name="lib">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../UNIVERSIDADE/Mestrado/1º Ano/2º Semestre/QCS/Assignment1/Git projeto/QCS/Voter/lib/saaj-api.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../UNIVERSIDADE/Mestrado/1º Ano/2º Semestre/QCS/Assignment1/Git projeto/QCS/Voter/lib/woodstox-core-asl.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../UNIVERSIDADE/Mestrado/1º Ano/2º Semestre/QCS/Assignment1/Git projeto/QCS/Voter/lib/jaxb-xjc.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../UNIVERSIDADE/Mestrado/1º Ano/2º Semestre/QCS/Assignment1/Git projeto/QCS/Voter/lib/mimepull.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../UNIVERSIDADE/Mestrado/1º Ano/2º Semestre/QCS/Assignment1/Git projeto/QCS/Voter/lib/policy.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../UNIVERSIDADE/Mestrado/1º Ano/2º Semestre/QCS/Assignment1/Git projeto/QCS/Voter/lib/jsr181-api.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../UNIVERSIDADE/Mestrado/1º Ano/2º Semestre/QCS/Assignment1/Git projeto/QCS/Voter/lib/jaxws-tools.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../UNIVERSIDADE/Mestrado/1º Ano/2º Semestre/QCS/Assignment1/Git projeto/QCS/Voter/lib/streambuffer.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../UNIVERSIDADE/Mestrado/1º Ano/2º Semestre/QCS/Assignment1/Git projeto/QCS/Voter/lib/jaxws-rt.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../UNIVERSIDADE/Mestrado/1º Ano/2º Semestre/QCS/Assignment1/Git projeto/QCS/Voter/lib/ha-api.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../UNIVERSIDADE/Mestrado/1º Ano/2º Semestre/QCS/Assignment1/Git projeto/QCS/Voter/lib/saaj-impl.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../UNIVERSIDADE/Mestrado/1º Ano/2º Semestre/QCS/Assignment1/Git projeto/QCS/Voter/lib/jaxb-api.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../UNIVERSIDADE/Mestrado/1º Ano/2º Semestre/QCS/Assignment1/Git projeto/QCS/Voter/lib/stax2-api.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../UNIVERSIDADE/Mestrado/1º Ano/2º Semestre/QCS/Assignment1/Git projeto/QCS/Voter/lib/javax.annotation.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../UNIVERSIDADE/Mestrado/1º Ano/2º Semestre/QCS/Assignment1/Git projeto/QCS/Voter/lib/management-api.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../UNIVERSIDADE/Mestrado/1º Ano/2º Semestre/QCS/Assignment1/Git projeto/QCS/Voter/lib/mail.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../UNIVERSIDADE/Mestrado/1º Ano/2º Semestre/QCS/Assignment1/Git projeto/QCS/Voter/lib/jaxb-impl.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../UNIVERSIDADE/Mestrado/1º Ano/2º Semestre/QCS/Assignment1/Git projeto/QCS/Voter/lib/jaxws-api.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../UNIVERSIDADE/Mestrado/1º Ano/2º Semestre/QCS/Assignment1/Git projeto/QCS/Voter/lib/stax-ex.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
